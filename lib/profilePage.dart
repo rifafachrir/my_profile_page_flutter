@@ -122,6 +122,10 @@ class ProfilePage extends StatelessWidget {
                         Text(
                           "2021-2025",
                         textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black
+                          ),
                         ),
                         Text(
                           "School at SMK Wikrama Bogor",
@@ -131,6 +135,10 @@ class ProfilePage extends StatelessWidget {
                         Text(
                           "January 2024 - Juni 2024",
                           textAlign: TextAlign.center,
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black
+                          ),
                         ),
                         Text(
                           "Intership at Pt.Desacode Transformasi Teknologi",
