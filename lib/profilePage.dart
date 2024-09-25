@@ -71,84 +71,93 @@ class ProfilePage extends StatelessWidget {
                 SizedBox(
                   height: 8.0,
                 ),
-                Card(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15.0),
-                  ),
-                  color: Colors.yellow.shade300,
-                  child: Padding(
-                    padding: EdgeInsets.all(20.0),
-                    child: Column(
-                      children: <Widget>[
-                        Align(
-                          alignment: Alignment.topLeft,
-                          child: Text(
-                            "About Me",
-                            textAlign: TextAlign.start,
-                            style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold),
-                          ),
-                        ),
-                        Text(
-                          "Rifa Fachri Ramadhan is a student who is seriously pursuing software development as Backend Developer at Wikrama Vocational School.",
-                          textAlign: TextAlign.start,
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Card(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15.0),
-                  ),
-                  color: Colors.white,
-                  child: Padding(
-                    padding: EdgeInsets.all(20.0),
-                    child: Column(
-                      children: <Widget>[
-                        Align(
-                          alignment: Alignment.topLeft,
-                          child: Text(
-                            "History",
-                            textAlign: TextAlign.start,
-                            style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold),
-                          ),
-                        ),
-                        Text(
-                          "2021-2025",
-                        textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black
-                          ),
-                        ),
-                        Text(
-                          "School at SMK Wikrama Bogor",
-                          textAlign: TextAlign.center,
-                        ),
-                        SizedBox(height: 8.0),
-                        Text(
-                          "January 2024 - Juni 2024",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black
-                          ),
-                        ),
-                        Text(
-                          "Intership at Pt.Desacode Transformasi Teknologi",
-                          textAlign: TextAlign.center,
-                        ),
 
-                      ],
+                SizedBox(
+                  width: 600,
+                  child:Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
+                    color: Colors.yellow.shade300,
+                    child: Padding(
+                      padding: EdgeInsets.all(20.0),
+                      child: Column(
+                        children: <Widget>[
+                          Align(
+                            alignment: Alignment.topLeft,
+                            child: Text(
+                              "About Me",
+                              textAlign: TextAlign.start,
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                          Text(
+                            "Rifa Fachri Ramadhan is a student who is seriously pursuing software development as Backend Developer at Wikrama Vocational School.",
+                            textAlign: TextAlign.start,
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
+
+                SizedBox(
+                  width:600,
+                  child:Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
+                    color: Colors.white,
+                    child: Padding(
+                      padding: EdgeInsets.all(20.0),
+                      child: Column(
+                        children: <Widget>[
+                          Align(
+                            alignment: Alignment.topLeft,
+                            child: Text(
+                              "History",
+                              textAlign: TextAlign.start,
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                          Text(
+                            "2021-2025",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black
+                            ),
+                          ),
+                          Text(
+                            "School at SMK Wikrama Bogor",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(height: 8.0),
+                          Text(
+                            "January 2024 - Juni 2024",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black
+                            ),
+                          ),
+                          Text(
+                            "Intership at Pt.Desacode Transformasi Teknologi",
+                            textAlign: TextAlign.center,
+                          ),
+
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+
                 SizedBox(
                     width: 600,
                     child: Card(
