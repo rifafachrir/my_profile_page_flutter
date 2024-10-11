@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'profilePage.dart';
+import 'loginPage.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Home(),
+    home: LoginPage(),
   ));
 }
 
@@ -42,6 +43,7 @@ class Home extends StatelessWidget {
                       CircleAvatar(
                         radius: 100.0,
                         backgroundImage: AssetImage("img/fotoRifa.jpeg"),
+
                       ),
                       Text(
                         "Rifa Fachri Ramadhan",
@@ -67,7 +69,16 @@ class Home extends StatelessWidget {
                             style: TextStyle(
                                 color: const Color.fromARGB(255, 81, 74, 162),
                                 fontSize: 15),
-                          ))
+                          )),
+                      TextButton(onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (Context) => LoginPage()));
+                      }, child: Text(
+                        "Back To Login",
+                        style: TextStyle(
+                            color: const Color.fromARGB(255, 81, 74, 162),
+                            fontSize: 15),
+                      ))
+
                     ],
                   ),
                 ),
